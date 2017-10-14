@@ -1,0 +1,209 @@
+/* General Mobile Stylesheet */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Passion One', cursive;
+	font-family: 'Roboto Slab', sans-serif;
+	line-height: 26px;
+	color: $black;
+}
+
+nav ul {
+	margin: 20px 0;
+	list-style: none;
+	padding: 0;
+
+
+	li {
+		display: inline-block;
+	}
+}
+
+.page-header {
+	position: relative;
+	margin-top: 0px;
+	height: 15px;
+	overflow: hidden;
+	background-color: $yellow;
+	transition: 0.5s;
+	text-align: center;
+
+	h2 {
+		margin-top: 20px;
+	}
+
+	&:hover {
+		height: 120px;
+		transition: 0.5s;
+	}
+}
+
+header {
+	width: 50%;
+	margin: 0px auto;
+}
+
+content {
+	display: block;
+	margin: 0px auto;
+	position: relative;
+	padding-bottom: 40px;
+	width: 50%;
+}
+
+section {
+	float: left;
+	width: 100%;
+	display: block;
+	padding: 20px;
+	border: 1px solid $gray;
+	border-radius: 5px;
+	background: lighten(#f6f6f6, 1%);
+	margin: 20px 0px;
+	//box-shadow: 0px 20px 50px #d6d6d6;
+}
+
+.bio {
+	width: 70%;
+}
+
+.profile-pic {
+	width: 25%;
+	padding: 0;
+	margin-right: 5%;
+	overflow: hidden;
+}
+
+img	{
+	margin-top: 20px;
+	width: 100%;
+}
+
+.fa {
+	&:hover {
+		color: $blue;
+	}
+}
+
+#socialIcons {
+	margin-top: 60px;
+	text-align: center;
+	background: white;
+
+	.fa {
+		font-size: 1.5em;
+		margin: 0 10px;
+	}
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	clear: both;
+	width: 100%;
+
+	p {
+		display: block;
+		font-size: 10px;
+	}
+
+	a {
+		text-decoration: none;
+	}
+
+	.fa {
+		color: red;
+
+		&:hover {
+			color: $blue;
+		}
+	}
+	
+}
+
+aside {
+	position: fixed;
+	top: 10px;
+	right: 10px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+blockquote {
+	float: left;
+	width: 100%;
+	display: block;
+	padding: 10px;
+	border: 1px solid $gray;
+	border-radius: 5px;
+	background: #f6f6f6;
+	margin: 40px 0px;
+	box-shadow: 0px 20px 50px #d6d6d6;
+}
+
+hr {
+	margin: 40px 0;
+	border-top: 1px solid $gray;
+	border-bottom: 1px solid $gray;
+	border-radius: 2px;
+}
+
+/* Mobile Styles */
+
+@media (max-width: 1000px) {
+	.bio {
+		height: auto;
+	}
+
+	.profile-pic {
+		height: auto;
+	}
+}
+
+@media (max-width: 600px) {
+	h1 {
+		font-size: 4em;
+	}
+
+	header {
+		width: 95%;
+	}
+
+	nav {
+
+		ul {
+			
+			li {
+				margin: 2px 0;
+				//display: block;
+				//width: 50%;
+			}
+		}
+	}
+
+	a.nav-button {
+		padding: 12px;
+		margin: 0;
+		display: block;
+
+	}
+
+	content {
+		width: 95%;
+	}
+
+	aside {
+		position: relative;
+		top: auto;
+		right: auto;
+	}
+}

@@ -1,0 +1,104 @@
+ // Colors
+
+$black:		#4A4A4A;
+$gray:		#c6c6c6;
+$lgray:		#f1f1f1;
+$green:		#a0d813;
+$lgreen:	#D7F4DC;
+$blue:		#75caca;
+$yellow:	#c8ff29;
+
+h1 {
+	font-family: 'Passion One';
+	font-size: 5em;
+	font-weight: 400;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	line-height: 1em;
+	color: $black;
+	text-shadow: 4px 3px 0 white, 9px 8px 0 rgba(0,0,0,0.15);
+}
+
+h2 {
+	color: $black;
+	font-family: 'Passion One';
+	font-size: 30px;
+	font-weight: 100;
+	margin: 0px;
+	margin-bottom: 5px;
+	line-height: 40px;
+	padding-top: 20px;
+}
+
+h3 {
+	font-weight: 600;
+	padding-top: 20px;
+	padding-bottom: 8px;
+	border-bottom: 3px solid $lgray;
+}
+
+p {
+	margin-top: 0px;
+}
+
+a {
+	color: lighten( black, 20%);
+
+	&:hover {
+		color: lighten( black, 40%);
+	}
+}
+
+.fa {
+	color: $gray;
+	padding-right: 5px;
+}
+
+em {
+	font-weight: 800;
+    font-style: normal;
+    background-color: $yellow;
+    border: 1px solid $lgray;
+    border-radius: 4px;
+}
+
+pre {
+	background-color: $lgray;
+	padding: 10px;
+	border-radius: 4px;
+}
+
+.underline {
+	display: inline-block;
+	color: $gray;
+	text-decoration: none;
+	border-bottom: 1px solid $gray;
+	transition: 0.2s;
+
+	&:hover {
+		color: $blue;
+		transition: 0.5s;
+		border-bottom: 1px solid $blue;
+	}
+}
+
+.nav-button {
+	padding: 1px 5px;
+	border-radius: 3px;
+	color: $gray;
+	border: 1px solid $gray;
+	background: white;
+	margin: 0 10px;
+	text-decoration: none;
+	transition: 0.5s;
+
+	&:first-child {
+		margin-left: 0;
+	}
+
+	&:hover {
+		color: $green;
+		border: 1px solid $green;
+		transition: 0.5s;
+	}
+}
