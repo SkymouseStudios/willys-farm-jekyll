@@ -9,9 +9,11 @@ body {
 	font-family: 'Roboto Slab', sans-serif;
 	line-height: 26px;
 	color: $black;
+	box-sizing: border-box;
 }
 
 nav ul {
+	text-align: center;
 	margin: 20px 0;
 	list-style: none;
 	padding: 0;
@@ -22,64 +24,97 @@ nav ul {
 	}
 }
 
-.page-header {
-	position: relative;
-	margin-top: 0px;
-	height: 15px;
+.header-images {
 	overflow: hidden;
-	background-color: $yellow;
-	transition: 0.5s;
 	text-align: center;
+	position: relative;
+
+	img {
+		//width: 60%;
+	}
+}
+
+.hero {
+	position: absolute;
+	top: 100px;
+	width: 100%;
+	color: white;
 
 	h2 {
-		margin-top: 20px;
+		font-size: 3em;
+		color: white;
 	}
 
-	&:hover {
-		height: 120px;
-		transition: 0.5s;
+	h4 {
+		margin: 0;
 	}
 }
 
 header {
-	width: 50%;
+	width: 70%;
 	margin: 0px auto;
+	padding: 20px 0 30px;
+	text-align: center;
 }
 
-content {
+.content {
 	display: block;
 	margin: 0px auto;
 	position: relative;
 	padding-bottom: 40px;
-	width: 50%;
+	width: 60%;
 }
 
 section {
-	float: left;
 	width: 100%;
 	display: block;
 	padding: 20px;
-	border: 1px solid $gray;
 	border-radius: 5px;
 	background: lighten(#f6f6f6, 1%);
 	margin: 20px 0px;
 	//box-shadow: 0px 20px 50px #d6d6d6;
 }
 
-.bio {
-	width: 70%;
+.item-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 4fr));
+	grid-template-rows: 200px 200px 200px ;
 }
 
-.profile-pic {
-	width: 25%;
-	padding: 0;
-	margin-right: 5%;
-	overflow: hidden;
+.item {
+	position: relative;
+	background-size: cover;
+	text-align: center;
+	transition: 0.5s;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: white;
+
+	&::before {
+		position: absolute;
+		content: " ";
+		opacity: 0.5;
+		color: $black;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+
+	&:hover {
+		background-color: $red;
+		transition: 0.3s;
+	}
 }
 
 img	{
-	margin-top: 20px;
 	width: 100%;
+}
+
+img.inline {
+	width: 300px;
+	float: left;
 }
 
 .fa {
@@ -100,14 +135,12 @@ img	{
 }
 
 footer {
-	position: absolute;
+	padding: 0 30px;
 	bottom: 0;
-	clear: both;
 	width: 100%;
 
 	p {
 		display: block;
-		font-size: 10px;
 	}
 
 	a {
@@ -136,6 +169,10 @@ aside {
 
 .right {
 	float: right;
+}
+
+.cf {
+	clear: both;
 }
 
 blockquote {
@@ -197,7 +234,7 @@ hr {
 
 	}
 
-	content {
+	.content {
 		width: 95%;
 	}
 
@@ -206,4 +243,52 @@ hr {
 		top: auto;
 		right: auto;
 	}
+}
+
+.-veg {
+	background-image: url("/library/img/wf-1.jpg");
+}
+
+.-pumpkin {
+	background-image: url("/library/img/wf-2.jpg");
+}
+
+.-honey {
+	background-image: url("/library/img/wf-3.jpg");
+}
+
+.-wagon {
+	background-image: url("/library/img/wf-4.jpg");
+}
+
+.-music {
+	background-image: url("/library/img/wf-5.jpg");
+}
+
+.-animals {
+	background-image: url("/library/img/wf-6.jpg");
+}
+
+.-photo {
+	background-image: url("/library/img/wf-7.jpg");
+}
+
+.-maple {
+	background-image: url("/library/img/wf-8.jpg");
+}
+
+.-pumpkin {
+	background-image: url("/library/img/wf-9.jpg");
+}
+
+.-jam {
+	background-image: url("/library/img/wf-10.jpg");
+}
+
+.-cider {
+	background-image: url("/library/img/wf-11.jpg");
+}
+
+.-donut {
+	background-image: url("/library/img/wf-12.jpg");
 }

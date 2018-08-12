@@ -1,12 +1,14 @@
  // Colors
 
 $black:		#4A4A4A;
-$gray:		#c6c6c6;
+$gray:		#4A4A4A;
 $lgray:		#f1f1f1;
 $green:		#a0d813;
 $lgreen:	#D7F4DC;
 $blue:		#75caca;
 $yellow:	#c8ff29;
+$red:		#960000;
+$dred:		#7a0303;
 
 h1 {
 	font-family: 'Passion One';
@@ -97,8 +99,8 @@ pre {
 	}
 
 	&:hover {
-		color: $green;
-		border: 1px solid $green;
+		color: $red;
+		border: 1px solid $red;
 		transition: 0.5s;
 	}
 }

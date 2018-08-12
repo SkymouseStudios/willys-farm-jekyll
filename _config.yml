@@ -1,17 +1,10 @@
 # Site settings
 title: Willy's Farm and Cider Mill
-subtitle: "A free HTML5 agency template"
-url: "http://skymse.com" # the base hostname & protocol for your site
-# baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
-baseurl: "/willys-farm"
+subtitle: "Get Outside with Your Family."
+url: "http://willysfarm.com" # the base hostname & protocol for your site
+baseurl: #"/willys-farm"
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
-
-# Build settings
-markdown: kramdown
-
-# Google analytics
-
 
 # Category descriptions (for archive pages)
 descriptions:
@@ -31,13 +24,8 @@ email: "thefamily@willysfarm.com"
 logo: "http://patrickhanus.com/tile.png"
 sameAs: "https://www.instagram.com/thehsedition/"
 
-
 # Google Analytics
 google-analytics: "UA-XXXX-1"
-
-# Twitter Card
-
-
 
 exclude:
   - "/vendor/"
