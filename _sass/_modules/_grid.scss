@@ -1,0 +1,11 @@
+.grid-half {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
+	grid-gap: 20px;
+}
+
+.item-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 4fr));
+	grid-template-rows: auto;
+}

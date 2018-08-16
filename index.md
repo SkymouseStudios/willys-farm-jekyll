@@ -2,6 +2,7 @@
 
 layout: page
 title: Willy's Farm and Cider Mill
+subtitle: Get Outside.
 
 ---
 
@@ -29,18 +30,20 @@ title: Willy's Farm and Cider Mill
 	<div class="item -maple">Local Maple Syrup</div>
 	<div class="item -jam">Delicious Jams</div>
 	<div class="item -cider">Drink apple cider</div>
-	<div class="item">Walk the corn maze</div>
-	<div class="item">Bite an Apple</div>
-	<div class="item">Talk with friends</div>
-	<div class="item">Breath the outdoors</div>
-	<div class="item">Eat Donuts</div>
-	<div class="item">Take Family Photos</div>
-	<div class="item">Meet our Family</div>
-	<div class="item">Pet the Animals</div>
-	<div class="item">Local Maple Syrup</div>
-	<div class="item">Delicious Jams</div>
-	<div class="item">Fantastic Cheese</div>
+	<div class="item -music">Walk the corn maze</div>
+	<div class="item -veg">Bite an Apple</div>
+	<div class="item -veg">Talk with friends</div>
+	<div class="item -veg">Breath the outdoors</div>
+	<div class="item -veg">Eat Donuts</div>
+	<div class="item -veg">Take Family Photos</div>
+	<div class="item -veg">Meet our Family</div>
+	<div class="item -veg">Pet the Animals</div>
+	<div class="item -veg">Local Maple Syrup</div>
+	<div class="item -veg">Delicious Jams</div>
+	<div class="item -veg">Fantastic Cheese</div>
 </div>
+
+{% include mailchimp.html %}
 
 ## Who can enjoy Willy’s Farm?
 
