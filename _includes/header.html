@@ -13,23 +13,22 @@
         <meta name="twitter:creator" content="@thehsedition">
         <meta name="twitter:title" content="{{ page.seo-title }}">
         <meta name="twitter:description" content="{{ page.seo-description }}">
-        <meta name="twitter:image" content="{{ site.url }}/library/img/{{ page.seo-title }}">
+        <meta name="twitter:image" content="{{ site.baseurl }}/library/img/{{ page.seo-title }}">
    
     <!-- OG Tags -->
         <meta property="og:title" content="{{ page.seo-title }}" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="{{ site.url }}" />
-        <meta property="og:image" content="{{ site.url }}/img/{{ page.seo-img }}" />
+        <meta property="og:url" content="{{ site.baseurl }}" />
+        <meta property="og:image" content="{{ site.baseurl }}/img/{{ page.seo-img }}" />
 
-        <link rel="apple-touch-icon" href="{{ site.url }}/apple-touch-icon.png">
+        <link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png">
 
-        <link rel="stylesheet" href="{{ site.url }}/style.css">
-        <link rel="stylesheet" href="{{ site.url }}/library/fonts/font-awesome.min.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/style.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/library/fonts/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Passion+One:400|Roboto+Slab:300" rel="stylesheet">
 
-        <script src="{{ site.url }}/library/js/vendor/modernizr-2.8.3.min.js"></script>
-        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-        <script>window.jQuery || document.write('<script src="{{ site.url }}/js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="{{ site.baseurl }}/library/js/vendor/modernizr-2.6.2.min.js"></script>
+        <script>window.jQuery || document.write('<script src="{{ site.baseurl }}/js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script type="application/ld+json">
             {
               "@context": "{{ site.title }}",
@@ -39,7 +38,6 @@
               "email": "{{ site.title }}",
               "logo": "http://patrickhanus.com/tile.png",
               "sameAs": [
-                % for
               ]
             }
         </script>
@@ -52,7 +50,7 @@
     <nav>
         <ul>
             <li><a class="nav-button" href="/">Home</a></li>
-            <li><a class="nav-button" href="/get-directions.html">Get Directions</a></li>
+            <li><a class="nav-button" href="/https://www.google.com/maps/dir/''/willy's+farm+and+cider+mill/@42.6034999,-74.9104093,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89dc0f128a9e150d:0x429cbfaa2edf2354!2m2!1d-74.8403694!2d42.6035212">Get Directions</a></li>
             <li><a class="nav-button" href="/things-to-do.html">Things to do</a></li>
             <li><a class="nav-button" href="/custom-pressing.html">Custom Pressing</a></li>
             <li><a class="nav-button" href="/our-story.html">Our Story</a></li>

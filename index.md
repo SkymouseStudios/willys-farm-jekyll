@@ -15,32 +15,38 @@ subtitle: Get Outside.
 <img src="/library/img/kids-playing-in-leaves.jpg" alt="">
 </div>
 
+## We're glad you're here.
+
+<p>We're a family farm in upstate New York, just 30 minutes from Oneonta and 15 minutes from Cooperstown and the Baseball Hall of Fame</p>
+
+<p>We'd like to personally invite you to visit us this fall. It's free to come visit us and we have plenty of crafts, baked goods and relaxing coutry air for everyone.</p>
+
 ## What can I do at Willy's Farm?
 
 <div class="item-grid">
-	<div class="item -veg">Buy some vegtables</div>
-	<div class="item -music">Listen to music</div>
-	<div class="item -wagon">Wagon Rides</div>
-	<div class="item -honey">Homegrown Honey</div>
-	<div class="item -pumpkin">Pick a Pumpkin</div>
-	<div class="item -donut">Eat Donuts</div>
-	<div class="item -photo">Take Family Photos</div>
-	<div class="item -family">Meet our Family</div>
-	<div class="item -animals">Pet the Animals</div>
-	<div class="item -maple">Local Maple Syrup</div>
-	<div class="item -jam">Delicious Jams</div>
-	<div class="item -cider">Drink apple cider</div>
-	<div class="item -music">Walk the corn maze</div>
-	<div class="item -veg">Bite an Apple</div>
-	<div class="item -veg">Talk with friends</div>
-	<div class="item -veg">Breath the outdoors</div>
-	<div class="item -veg">Eat Donuts</div>
-	<div class="item -veg">Take Family Photos</div>
-	<div class="item -veg">Meet our Family</div>
-	<div class="item -veg">Pet the Animals</div>
-	<div class="item -veg">Local Maple Syrup</div>
-	<div class="item -veg">Delicious Jams</div>
-	<div class="item -veg">Fantastic Cheese</div>
+	<div class="item wf-1"><p>Buy some vegtables</p></div>
+	<div class="item wf-2"><p>Listen to music</p></div>
+	<div class="item wf-3"><p>Wagon Rides</p></div>
+	<div class="item wf-4"><p>Homegrown Honey</p></div>
+	<div class="item wf-5"><p>Pick a Pumpkin</p></div>
+	<div class="item wf-6"><p>Eat Donuts</p></div>
+	<div class="item wf-7"><p>Take Family Photos</p></div>
+	<div class="item wf-8"><p>Meet our Family</p></div>
+	<div class="item wf-9"><p>Pet the Animals</p></div>
+	<div class="item wf-10"><p>Local Maple Syrup</p></div>
+	<div class="item wf-11"><p>Delicious Jams</p></div>
+	<div class="item wf-12"><p>Drink apple cider</p></div>
+	<div class="item wf-13"><p>Walk the corn maze</p></div>
+	<div class="item wf-14"><p>Bite an Apple</p></div>
+	<div class="item wf-15"><p>Talk with friends</p></div>
+	<div class="item wf-16"><p>Breath the outdoors</p></div>
+	<div class="item wf-17"><p>Eat Donuts</p></div>
+	<div class="item wf-18"><p>Take Family Photos</p></div>
+	<div class="item wf-19"><p>Meet our Family</p></div>
+	<div class="item wf-20"><p>Pet the Animals</p></div>
+	<div class="item wf-21"><p>Local Maple Syrup</p></div>
+	<div class="item wf-22"><p>Delicious Jams</p></div>
+	<div class="item wf-23"><p>Fantastic Cheese</p></div>
 </div>
 
 {% include mailchimp.html %}
@@ -73,4 +79,4 @@ Willy's Farm & Cider Mill<br>
 Schenevus, NY, 12155<br>
 
 <a class="underline" href="tel:607-638-9449">607-638-9449</a><br>
-<a class="underline" href="mailto:thefamily@willysfarm.com">info@willysfarm.com</a>
+<a class="underline" href="mailto:thefamily@willysfarm.com">thefamily@willysfarm.com</a>
