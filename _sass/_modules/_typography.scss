@@ -78,9 +78,9 @@ pre {
 	transition: 0.2s;
 
 	&:hover {
-		color: $blue;
+		color: $red;
 		transition: 0.5s;
-		border-bottom: 1px solid $blue;
+		border-bottom: 1px solid $red;
 	}
 }
 
@@ -88,8 +88,7 @@ pre {
 	padding: 1px 5px;
 	border-radius: 3px;
 	color: $gray;
-	border: 1px solid $gray;
-	background: white;
+	background: $lgray;
 	margin: 0 10px;
 	text-decoration: none;
 	transition: 0.5s;
@@ -99,8 +98,7 @@ pre {
 	}
 
 	&:hover {
-		color: $red;
-		border: 1px solid $red;
+		padding: 1px 10px;
 		transition: 0.5s;
 	}
 }

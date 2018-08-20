@@ -6,22 +6,31 @@
         <title>{{ site.title }} | {{ page.subtitle }}</title>
         <meta name="description" content="{{ page.seo-description }}">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <!-- Twitter Card -->
-        <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:site" content="@thehsedition">
-        <meta name="twitter:creator" content="@thehsedition">
-        <meta name="twitter:title" content="{{ page.seo-title }}">
-        <meta name="twitter:description" content="{{ page.seo-description }}">
-        <meta name="twitter:image" content="{{ site.baseurl }}/library/img/{{ page.seo-title }}">
-   
-    <!-- OG Tags -->
-        <meta property="og:title" content="{{ page.seo-title }}" />
+        
+        <!-- Icon Info -->
+        <link rel="shortcut icon" href="/favicon.png" type="image/x-icon"/>
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#2b5797">
+        <meta name="theme-color" content="#ffffff">
+
+        <!-- Twitter Card -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="{{ site.username }}" />
+        <meta name="twitter:title" content="{{ page.title }}" />
+        <meta name="twitter:description" content="{{ page.description }}" />
+        <meta name="twitter:image" content="{{ page.image }}" />
+
+        <!-- Meta Information -->
+        <meta name="keywords" content="{{ page.keywords }}" />
+        <meta property="og:title" content="{{ page.title }}" />
+        <meta name="og:description" content="{{ page.description }}">
         <meta property="og:type" content="website" />
         <meta property="og:url" content="{{ site.baseurl }}" />
-        <meta property="og:image" content="{{ site.baseurl }}/img/{{ page.seo-img }}" />
-
-        <link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png">
+        <meta property="og:image" content="{{ site.baseurl }}{{ page.image }}" />
 
         <link rel="stylesheet" href="{{ site.baseurl }}/style.css">
         <link rel="stylesheet" href="{{ site.baseurl }}/library/fonts/font-awesome.min.css">
@@ -31,35 +40,34 @@
         <script>window.jQuery || document.write('<script src="{{ site.baseurl }}/js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script type="application/ld+json">
             {
-              "@context": "{{ site.title }}",
-              "@type": "{{ site.title }}",
+              "@context": "http://schema.org",
+              "@type": "{{ site.type }}",
               "name": "{{ site.title }}",
-              "url": "{{ site.title }}",
-              "email": "{{ site.title }}",
-              "logo": "http://patrickhanus.com/tile.png",
-              "sameAs": [
+              "url": "{{ site.baseurl }}",
+              "email": "{{ site.email }}",
+              "foundingDate": "{{ site.foundingDate }}",
+              "logo": "{{ site.baseurl }}{{ site.logo }}",
+              "sameAs": [ {% for social in site.social %}
+                    "{{ social.url }}", {% endfor %}
               ]
             }
         </script>
         
     </head>
 
-    <header>
+    <header role="banner" itemscope itemtype="http://schema.org/WPHeader">
         <h1>{{ page.title }}</h1>
+
+        <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+            <ul>
+                {% for link in site.links %}
+                    <li><a class="nav-button" href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a class="nav-button" href="/">Home</a></li>
-            <li><a class="nav-button" href="/https://www.google.com/maps/dir/''/willy's+farm+and+cider+mill/@42.6034999,-74.9104093,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89dc0f128a9e150d:0x429cbfaa2edf2354!2m2!1d-74.8403694!2d42.6035212">Get Directions</a></li>
-            <li><a class="nav-button" href="/things-to-do.html">Things to do</a></li>
-            <li><a class="nav-button" href="/custom-pressing.html">Custom Pressing</a></li>
-            <li><a class="nav-button" href="/our-story.html">Our Story</a></li>
-            <li><a class="nav-button" href="/hours.html">Hours</a></li>
-        </ul>
-    </nav>
-
-
-    <body>
+    
+    <body itemscope itemtype="http://schema.org/WebPage">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->

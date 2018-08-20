@@ -8,18 +8,31 @@ subtitle: Get Outside.
 
 <div class="header-images">
 	<div class="hero">
-	<h2>Get outside with your Family.</h2>
-	<h4>Willy's Farm is where families come together.</h4>
-</div>
+		<h2>Get outside with your Family.</h2>
+		<h4>Willy's Farm is where families come together.</h4>
+	</div>
 
-<img src="/library/img/kids-playing-in-leaves.jpg" alt="">
+	<img src="/library/img/kids-playing-in-leaves.jpg" alt="Children playing in leaves">
 </div>
 
 ## We're glad you're here.
 
-<p>We're a family farm in upstate New York, just 30 minutes from Oneonta and 15 minutes from Cooperstown and the Baseball Hall of Fame</p>
+<section>
+	<p>We're a family farm in Upstate New York, just 30 minutes from Oneonta or 15 minutes from Cooperstown and the Baseball Hall of Fame.</p>
 
-<p>We'd like to personally invite you to visit us this fall. It's free to come visit us and we have plenty of crafts, baked goods and relaxing coutry air for everyone.</p>
+	<p>We'd like to personally invite you to visit us this fall. It's free to come visit us and we have plenty of crafts, baked goods and relaxing country air for everyone.</p>
+</section>
+
+## So How do I get there?
+
+<a href="https://www.google.com/maps/dir/''/willy's+farm+and+cider+mill/@42.6034999,-74.9104093,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89dc0f128a9e150d:0x429cbfaa2edf2354!2m2!1d-74.8403694!2d42.6035212" class="nav-button">Get Directions</a><br>
+<br>
+Willy's Farm & Cider Mill<br>
+349 Badeau Hill Road<br>
+Schenevus, NY, 12155<br>
+
+<a class="underline" href="tel:607-638-9449">(607) 638-9449</a><br>
+<a class="underline" href="mailto:thefamily@willysfarm.com">thefamily@willysfarm.com</a>
 
 ## What can I do at Willy's Farm?
 
@@ -45,8 +58,6 @@ subtitle: Get Outside.
 	<div class="item wf-19"><p>Meet our Family</p></div>
 	<div class="item wf-20"><p>Pet the Animals</p></div>
 	<div class="item wf-21"><p>Local Maple Syrup</p></div>
-	<div class="item wf-22"><p>Delicious Jams</p></div>
-	<div class="item wf-23"><p>Fantastic Cheese</p></div>
 </div>
 
 {% include mailchimp.html %}
@@ -68,15 +79,4 @@ Invite the whole family so you kids can blow off steam.
 A quite retreat for old people. Enjoy it before you die.
 
 ### Lonely Single People
-If you have no purpose, why not come on down to the Farm?	
-
-## So How do I get there?
-
-<a href="https://www.google.com/maps/dir/''/willy's+farm+and+cider+mill/@42.6034999,-74.9104093,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89dc0f128a9e150d:0x429cbfaa2edf2354!2m2!1d-74.8403694!2d42.6035212" class="nav-button">Get Directions</a><br>
-<br>
-Willy's Farm & Cider Mill<br>
-349 Badeau Hill Road<br>
-Schenevus, NY, 12155<br>
-
-<a class="underline" href="tel:607-638-9449">607-638-9449</a><br>
-<a class="underline" href="mailto:thefamily@willysfarm.com">thefamily@willysfarm.com</a>
+If you have no purpose, why not come on down to the Farm?

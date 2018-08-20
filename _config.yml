@@ -2,30 +2,41 @@
 title: Willy's Farm and Cider Mill
 subtitle: "Get Outside with Your Family."
 url: "https://willysfarm.com"
-baseurl: #"https://willysfarm.com"
+baseurl: "https://willysfarm.com"
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
 
-# Category descriptions (for archive pages)
-descriptions:
-  - cat: jekyll
-    desc: "Posts describing Jekyll setup techniques."
-
-  - cat: dummy
-    desc: "Just some placeholder posts, lorem ipsum and the rest."
-
 # Google Schema
 # JSON
-context: "http://schema.org"
 type: "LocalBusiness"
 name: "Willy's Farm and Cider Mill"
-url: "http://willysfarm.com"
 email: "thefamily@willysfarm.com"
-logo: "http://patrickhanus.com/tile.png"
-sameAs: "https://www.instagram.com/thehsedition/"
+foundingDate: "1980-05-20"
+
+# Links to include in menu navigation
+links:
+  - title: Home
+    url: /index.html
+  - title: Get Directions
+    url: /get-directions.html
+  - title: Things to do
+    url: /things-to-do.html
+  - title: Custom Pressing
+    url: /custom-pressing.html
+  - title: Our Story
+    url: /our-story.html 
+  - title: Hours
+    url: /hours.html
+             
+# Links to Social Media
+social:
+  - name: Instagram
+    url: https://instagram.com/willysfarm
+  - name: Facebook
+    url: https://www.facebook.com/willysfarm/
 
 # Google Analytics
-google-analytics: "UA-XXXX-1"
+google-analytics: "UA-106752861-1"
 
 exclude:
   - "/vendor/"
