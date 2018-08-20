@@ -61,22 +61,3 @@ Schenevus, NY, 12155<br>
 </div>
 
 {% include mailchimp.html %}
-
-## Who can enjoy Willy’s Farm?
-
-### Lovey Dovey People
-The perfect place for a first date. Or second.<br>
-or third.<br>
-or every date.
-
-### School People
-Bring your class here so they love you as a teacher forever.
-
-### Family People
-Invite the whole family so you kids can blow off steam.
-
-### Old People
-A quite retreat for old people. Enjoy it before you die.
-
-### Lonely Single People
-If you have no purpose, why not come on down to the Farm?
