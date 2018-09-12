@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>{{ site.title }} | {{ page.subtitle }}</title>
-        <meta name="description" content="{{ page.seo-description }}">
+        <meta name="description" content="{{ site.description }}">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
         <!-- Icon Info -->
@@ -15,7 +15,7 @@
         <link rel="manifest" href="/site.webmanifest">
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
         <meta name="msapplication-TileColor" content="#2b5797">
-        <meta name="theme-color" content="#ffffff">
+        <meta name="theme-color" content="#772c2c">
 
         <!-- Twitter Card -->
         <meta name="twitter:card" content="summary_large_image" />
@@ -61,7 +61,7 @@
         <nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
             <ul>
                 {% for link in site.links %}
-                    <li><a class="nav-button" href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
+                    <li><a class="nav-button" href="{{ link.url }}">{{ link.title }}</a></li>
                 {% endfor %}
             </ul>
         </nav>

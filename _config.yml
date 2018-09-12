@@ -5,6 +5,7 @@ url: "https://willysfarm.com"
 baseurl: "https://willysfarm.com"
 cover: "/assets/cover.png"
 logo: "/assets/logo.png"
+description: "Family-operated cider mill and pumpkin farm located on 100 beautiful acres, with lots of room to run. Produce, pumpkins, pies, corn maze, crafts, hay rides."
 
 # Google Schema
 # JSON
@@ -18,13 +19,13 @@ links:
   - title: Home
     url: /index.html
   - title: Get Directions
-    url: /get-directions.html
+    url: https://www.google.com/maps/dir/''/willy's+farm+and+cider+mill/@42.6034999,-74.9104093,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89dc0f128a9e150d:0x429cbfaa2edf2354!2m2!1d-74.8403694!2d42.6035212
   - title: Things to do
     url: /things-to-do.html
   - title: Custom Pressing
     url: /custom-pressing.html
-  - title: Our Story
-    url: /our-story.html 
+  # - title: Our Story
+  #   url: /our-story.html 
   - title: Hours
     url: /hours.html
              
