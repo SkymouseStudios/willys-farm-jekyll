@@ -489,7 +489,7 @@ AddDefaultCharset utf-8
 
 <IfModule mod_headers.c>
 
-     Header set Content-Security-Policy "font-src 'self' https://fonts.gstatic.com https://fonts.googleapis.com ; script-src 'self' 'unsafe-eval' 'unsafe-inline https://www.google-analytics.com/ https://ssl.google-analytics.com/ https://www.googletagmanager.com https://connect.facebook.net/ https://s3.amazonaws.com/downloads.mailchimp.com/ ; style-src 'self' 'unsafe-inline' https://fonts.googleapis.co https://cdn-images.mailchimp.com https://maxcdn.bootstrapcdn.com/; object-src 'self' ; report-uri /__cspreport__"
+     Header set Content-Security-Policy "font-src 'self' https://fonts.gstatic.com https://fonts.googleapis.com ; script-src 'self' 'unsafe-eval' 'unsafe-inline https://www.google-analytics.com/ https://www.facebook.com/ https://ssl.google-analytics.com/ https://www.googletagmanager.com https://connect.facebook.net/ https://s3.amazonaws.com/downloads.mailchimp.com/ ; style-src 'self' 'unsafe-inline' https://fonts.googleapis.co https://cdn-images.mailchimp.com https://maxcdn.bootstrapcdn.com/; object-src 'self' ; report-uri /__cspreport__"
 
 #     # `mod_headers` cannot match based on the content-type, however,
 #     # the `Content-Security-Policy` response header should be send
