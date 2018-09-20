@@ -10,10 +10,10 @@ title: Hours
 </section>
 
 ## Friday 
-5pm - 9pm
+12pm - 5pm
 
 ## Saturday 
 9am - 5pm
 
 ## Sunday
-10am - 5pm
+11am - 5pm
